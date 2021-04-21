@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'AnswersAPI', type: :request do
   describe 'index' do
-    subject { get api_v1_answers_path }
+    subject { get api_v1_question_answers_path }
 
     it 'responds with successful HTTP status' do
       subject
